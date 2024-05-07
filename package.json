@@ -1,0 +1,28 @@
+{
+  "name": "test-cli",
+  "version": "1.0.0",
+  "description": "cli project",
+  "main": "/bin/cli.js",
+  "bin": {
+    "test-cli": "./bin/cli.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waitInHope/test-cli.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "waitInHope",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/waitInHope/test-cli/issues"
+  },
+  "homepage": "https://github.com/waitInHope/test-cli#readme"
+}
