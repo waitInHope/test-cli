@@ -3,12 +3,12 @@ const create = require('./utils/create');
 const mapActions = {
   create: {
     alias: 'c',
-    description: '创建子应用',
+    description: '创建应用',
     action: () => {
       create(process.argv[3]);
     },
     examples: [
-      'test-cli create <submodule-name>',
+      'test-cli create <app-name>',
     ]
   },
   '*': {
