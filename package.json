@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/waitInHope/test-cli#readme",
   "dependencies": {
-    "commander": "^12.0.0"
+    "commander": "^12.0.0",
+    "inquirer": "^9.2.20"
   }
 }

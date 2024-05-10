@@ -19,4 +19,5 @@ program.on('--help', () => {
       })
 })})
 
+// 在所有指令注册结束后执行program.parse，终止参数处理
 program.version(version).parse(process.argv);
