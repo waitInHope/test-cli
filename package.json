@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/waitInHope/test-cli/issues"
   },
-  "homepage": "https://github.com/waitInHope/test-cli#readme"
+  "homepage": "https://github.com/waitInHope/test-cli#readme",
+  "dependencies": {
+    "commander": "^12.0.0"
+  }
 }
