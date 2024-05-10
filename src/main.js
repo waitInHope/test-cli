@@ -1,5 +1,5 @@
 const { program } = require('commander');
-const version = require('./utils/constants');
+const { version } = require('./utils/constants');
 const mapActions = require('./commands');
 
 Object.keys(mapActions).forEach(action => {
