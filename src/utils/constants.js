@@ -1,3 +1,10 @@
 const { version } = require('../../package.json');
 
-module.exports = version;
+const templateProject = {
+  'react': 'https://github.com/waitInHope/react-project.git',
+}
+
+module.exports = {
+  version,
+  templateProject,
+};
